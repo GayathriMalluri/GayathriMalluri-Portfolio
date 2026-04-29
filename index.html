@@ -2,6 +2,48 @@
 <html>
 <head>
   <title>Gayathri Malluri</title>
+  <meta name="viewport" content="with-device-width.initial-scale=1.0">
+  <style>
+    body{
+      font-family: Arial;
+      margin:0;
+      background:#0f172a;
+      color:white;
+    }
+    header{
+      text-align:center;
+      padding:60px 20px;
+      background :#020617;
+    }
+    h1{
+      margin:0;
+      font-size:36px;
+    }
+    section{
+      padding:40px;
+      max-width:900px;
+      margin:auto;
+    }
+    .projects{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+      gap:20px;
+    }
+   .card{
+     backgraound:#1e293b;
+     padding:20px;
+     border-radius:10px;
+   }
+    a{
+      color:#38bdf8;
+      text-decoration:none;
+    }
+    footer{
+      text-align:center;
+      padding:20px;
+      background:#020617;
+    }
+  </style>
 </head>
 <body>
 
@@ -10,20 +52,31 @@
 
 <h2>About Me</h2>
 <p>Data analyst and Software Developer specializing in Python,SQL,and AI/ML. Experienced in building data-driven applications. Iteractive tools and Machine Learning models to solve real-world problems.</p>
-
+</section>
+<section>
 <h2>Projects</h2>
-
+<div class="projects>
+  <div class="card">
 <h3>Sudoku Solver</h3>
 <p>Built a python GUI Sudoku game with solver using backtracking algorithm.</p>
-
+</div>
+  <div class="card">
 <h3>Brain Pathology AI Model</h3>
 <p>Built a deep learning model using PyTorch for medical image classification.</p>
-
+  </div>
+  <div class="card">
 <h3>Biometric Cloud Security</h3>
 <p>Developed a secure authentication system using Java and MySQL..</p>
-
+  </div>
+</div>
+</section>
+  <section></section>
 <h2>Contact</h2>
 <p>Email:srihanyamalluri@gmail.com</p>
+</section>
+  <footer>
+    <p>@2026 Gayathri Malluri</p>
+  </footer>
 
 </body>
 </html>
